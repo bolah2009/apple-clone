@@ -1,0 +1,153 @@
+body,
+li,
+ul,
+p, h1,h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #08c;
+}
+
+body {
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.nav {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+ul.list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul.list li {
+    padding: 0px 8px;
+    line-height: 1.5em;
+}
+
+.hero-image {
+    background-color: #cccccc;
+    height: 500px;
+    background: url(images/your_verse_hero.jpg) 50% 100% no-repeat;
+}
+
+.article {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    line-height: 2em;
+}
+.header a {
+    color: white;
+    line-height: 1.8;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+}
+
+.header-body a:hover {
+    text-decoration: underline;
+  }
+.header .title a{
+    font-size: 3.8rem;
+    font-weight: 100;
+}
+.header .sub-headline a{
+    font-size: 1.8rem;
+}
+.header .header-body a{
+    font-size: 1.4rem;
+}
+.promo {
+    display: flex;
+    width: 100%;
+}
+
+.promo-list {
+    width: 25%
+}
+
+.promo-img {
+    width: 100%
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: #6e6e6e;
+    font-size: .8334em;
+    line-height: 1.2;
+    margin: 0px auto;
+
+}
+
+.up-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.up-footer .left {
+    align-self: flex-start;
+    flex-grow: 49;
+    text-align: left;
+    padding-top: 1.5em;
+    height: 1.2em;
+}
+
+.up-footer .right {
+    display: flex;
+    padding-top: 1.5em;
+    flex-grow: 51;
+    text-align: right;
+    margin-left: 48px;
+}
+
+.down-footer {
+    display: flex;
+    height: 1.2em;
+    padding-top: 1.5em;
+}
+
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.footer li:nth-child(n+2) {
+    border-left: 1px solid #ccc;
+    margin-left: .6em;
+    padding-left: .6em;
+}
+
+.footer .worldwide {
+    width: 16px;
+    height: 12px;
+    padding: 0px 8px;
+}
