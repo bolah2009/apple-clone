@@ -112,9 +112,9 @@ svg.svg {
 }
 
 .hero-image {
-    background-color: #cccccc;
+    background-color: #5e4e4e;
     height: 500px;
-    background: url(images/your_verse_hero.jpg) 50% 100% no-repeat;
+    background: url(../images/your_verse_hero.jpg) 50% 100% no-repeat;
 }
 
 .article {
